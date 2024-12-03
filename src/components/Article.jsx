@@ -36,13 +36,13 @@ const Article = () => {
   };
 
   return ( 
-    <>
-    <div className="section page__wrapper">
+    <div style={{ backgroundColor: "#1d1c21", color: "#ffffff", padding: "50px 20px" }}>
+    <div className="t-container">
       <div className="article-page">
         <h1 className='section__title d-flex'>
         <span className="news__detail-title-text">{article.title}</span>
         <span class="news__item-date news__detail-date">
-							<span class="news__item-day color-white">{article.date1}</span>{article.date2}</span>
+							{article.date}</span>
         </h1>
         <hr className="news__detail-title-hr"/>
         <img src={article.image} alt={article.title} className="article-page-image" />
@@ -52,7 +52,7 @@ const Article = () => {
         <div className="news__detail-text">Автор: <span className='link _white'>{article.autor}</span></div>
       </div>
     </div>
-    </>
+    </div>
   );
 };
 

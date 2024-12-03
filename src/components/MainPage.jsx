@@ -9,6 +9,7 @@ import partner_8 from '../images/partners/8.svg'
 import partner_9 from '../images/partners/9.svg'
 import partner_10 from '../images/partners/10.png'
 import partner_11 from '../images/partners/11.svg'
+import Stat from '../images/stat.png'
 
 function MainPage() {
 
@@ -31,7 +32,7 @@ function MainPage() {
               <div className="tn-atom">
                 <img
                   className="tn-atom__img t-img"
-                  src="https://static.tildacdn.com/tild3362-3836-4366-a136-336535336338/2_1.jpeg"
+                  src={Stat}
                   alt=""
                   data-original="https://static.tildacdn.com/tild3362-3836-4366-a136-336535336338/2_1.jpeg"
                   imgfield="tn_img_1608557648581"

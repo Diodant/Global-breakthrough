@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import Logo from '../images/logo.svg'
 
 const Footer = () => {
   return (
@@ -14,7 +15,7 @@ const Footer = () => {
           <div className="t-container t-align_center">
             <div className="t-col t-col_12">
               <div className="t017__uptitle t-uptitle t-uptitle_md" field="subtitle">
-                XIV МЕЖДУНАРОДНАЯ ПРЕМИЯ
+              МЕЖДУНАРОДНАЯ ПРЕМИЯ «ГЛОБАЛЬНЫЙ ПРОРЫВ»
               </div>
               <div className="t017__title t-title t-title_xxs" field="title">
                 <div style={{ fontSize: '52px' }} data-customstyle="yes">
@@ -41,7 +42,7 @@ const Footer = () => {
               <div className="t142__wraptwo">
                 <a
                   className="t-btn t142__submit t-btn_md"
-                  href="https://expertgoda.com/submit#about"
+                  href="/submit"
                   target="_blank"
                   style={{
                     color: '#ffffff',
@@ -90,7 +91,7 @@ const Footer = () => {
             <div className="tn-atom" field="tn_text_1475147461250">
               Телефон: +7 (495) 649-18-28
               <br />
-              Адрес: <a href="mailto:online@expertnw.com" style={{ color: 'inherit', textDecoration: 'none'}}>online@expertnw.com</a>
+              Адрес: 127473, Москва, ул. Делегатская, д. 8 стр.3
               <br />
               Е-mail: <a href="mailto:info@deloros.com" style={{ color: 'inherit', textDecoration: 'none'}}>info@deloros.com</a>
               <br />
@@ -127,7 +128,7 @@ const Footer = () => {
           >
             <div className="tn-atom" field="tn_text_1475147678114">
               <a
-                href="https://expertgoda.com/nominations"
+                href="/submit"
                 style={{
                   color: 'rgb(0, 0, 0)',
                   textDecoration: 'none',
@@ -135,11 +136,11 @@ const Footer = () => {
                   boxShadow: 'inset 0px -0px 0px 0px',
                 }}
               >
-                Номинации
+                Подать Заявку
               </a>
               <br />
               <a
-                href="http://expertgoda.com/for-partners"
+                href="/winners"
                 style={{
                   color: '#000000',
                   textDecoration: 'none',
@@ -147,11 +148,11 @@ const Footer = () => {
                   boxShadow: 'inset 0px -0px 0px 0px',
                 }}
               >
-                Партнёрам
+                Победители
               </a>
               <br />
               <a
-                href="http://expertgoda.com/awards2023"
+                href="/polozhenie"
                 style={{
                   color: 'rgb(0, 0, 0)',
                   textDecoration: 'none',
@@ -159,14 +160,14 @@ const Footer = () => {
                   boxShadow: 'inset 0px -0px 0px 0px',
                 }}
               >
-                Эксперт года 2023
+                Положение
                 <br />
               </a>
               <a
-                href="https://expertgoda.com/photogallery_main"
+                href="/creteria"
                 style={{ color: 'rgb(0, 0, 0)' , textDecoration: 'none'}}
               >
-                Фотогалерея
+                Критерии оценки
               </a>
             </div>
           </div>
@@ -176,8 +177,8 @@ const Footer = () => {
             data-elem-id="1475147757614"
           >
             <div className="tn-atom">
-              <a href="http://expertgoda.com/polozhenie-o-premii" style={{ color: 'inherit' , textDecoration: 'none'}}>
-                УЧАСТВОВАТЬ
+              <a  style={{ color: 'inherit' , textDecoration: 'none'}}>
+                ИНФОРМАЦИЯ
               </a>
             </div>
           </div>
@@ -188,7 +189,7 @@ const Footer = () => {
           >
             <div className="tn-atom" field="tn_text_1475147760185">
               <a
-                href="https://expertgoda.com/submit"
+                href="/news"
                 style={{
                   color: 'rgb(29, 28, 33)',
                   textDecoration: 'none',
@@ -196,11 +197,11 @@ const Footer = () => {
                   boxShadow: 'inset 0px -0px 0px 0px',
                 }}
               >
-                Подать заявку
+                Новости
               </a>
               <br />
               <a
-                href="https://expertgoda.com/council_of_experts"
+                href="/council_of_experts"
                 style={{
                   color: 'rgb(0, 0, 0)',
                   textDecoration: 'none',
@@ -208,15 +209,15 @@ const Footer = () => {
                   boxShadow: 'inset 0px -0px 0px 0px',
                 }}
               >
-                Совет экспертов
+                Экспертный Совет
               </a>
               <br />
-              <a href="https://expertgoda.com/sponsor" style={{ color: 'rgb(0, 0, 0)' , textDecoration: 'none'}}>
-                Попечители
+              <a href="/gallery" style={{ color: 'rgb(0, 0, 0)' , textDecoration: 'none'}}>
+              Галерея
               </a>
               <br />
               <a
-                href="https://expertgoda.com/contacts"
+                href="/contacts"
                 style={{
                   color: '#1d1c21',
                   textDecoration: 'none',

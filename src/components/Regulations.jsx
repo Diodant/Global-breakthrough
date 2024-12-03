@@ -13,7 +13,7 @@ const Regulations = () => {
     <div class="t050 flex">
         <div class="t-container t-align_left">
             <div class="t-col t-col_8 t-prefix_2">
-                <div class="t050__uptitle t-uptitle t-uptitle_sm" field="subtitle">ХIv МЕЖДУНАРОДНАЯ ПРЕМИЯ</div>
+                <div class="t050__uptitle t-uptitle t-uptitle_sm" field="subtitle">МЕЖДУНАРОДНАЯ ПРЕМИЯ «ГЛОБАЛЬНЫЙ ПРОРЫВ»</div>
                 <div class="t050__title t-title t-title_xxl" field="title">Положение о Международной Премии «Глобальный Прорыв»</div>
             </div>
         </div>

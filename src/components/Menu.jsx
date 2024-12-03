@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Link as scroller } from 'react-scroll'; 
+import { Link as ScrollLink, scroller } from 'react-scroll';
 import { useNavigate } from 'react-router-dom';
+import Logo from '../images/logo.svg'
 
 const Menu = () => {
   const navigate = useNavigate();
@@ -44,7 +45,7 @@ const Menu = () => {
                 <Link to="/">
                   <img
                     className="t461__imglogo t461__imglogomobile"
-                    src="images/logo-1-white.svg"
+                    src={Logo}
                     imgfield="img"
                     style={{ maxWidth: '170px', width: '170px' }}
                     alt="Company"
@@ -65,7 +66,7 @@ const Menu = () => {
                     {/* Социальные ссылки */}
                     <li className="t-sociallinks__item t-sociallinks__item_youtube">
                       <a
-                        href="https://www.youtube.com/channel/UC71aVsWcBNga06uLR9E2w_Q?view_as=subscriber"
+                        href="https://www.youtube.com/"
                         target="_blank"
                         rel="nofollow noopener noreferrer"
                         aria-label="youtube"
@@ -92,7 +93,7 @@ const Menu = () => {
                     </li>
                     <li className="t-sociallinks__item t-sociallinks__item_telegram">
                       <a
-                        href="https://t.me/expert_mag"
+                        href="https://t.me"
                         target="_blank"
                         rel="nofollow noopener noreferrer"
                         aria-label="telegram"
@@ -211,15 +212,97 @@ const Menu = () => {
                   Критерии оценки
                   </Link>
                 </li>
-                <li className="t461__list_item" style={{ padding: '0 15px' }}>
-                  <Link
-                    className="t-menu__link-item"
-                    to="/for-partners"
-                    data-menu-item-number="7"
-                  >
-                    Экспертный Совет
-                  </Link>
-                </li>
+
+                <li className="menu-item" style={{ position: 'relative' }}>
+      <a
+        className="menu-link"
+        href="/awards2024"
+        aria-expanded="false"
+        role="button"
+        onClick={(e) => e.preventDefault()}
+      >
+        Экспертный Совет
+        <div className="t-menusub__arrow"></div>
+      </a>
+      <div className="submenu">
+        <div className="submenu-menu">
+          <div className="submenu-content">
+            <ul role="list" className="submenu-list">
+              <li className="submenu-list-item">
+                <a
+                  className="submenu-link"
+                  href="/awards2024"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Эксперт года — 2024
+                </a>
+              </li>
+              <li className="submenu-list-item">
+                <a
+                  className="submenu-link"
+                  href="/awards2023"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Эксперт года — 2023
+                </a>
+              </li>
+              <li className="submenu-list-item">
+                <a
+                  className="submenu-link"
+                  href="/awards2022"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Эксперт года — 2022
+                </a>
+              </li>
+              <li className="submenu-list-item">
+                <a
+                  className="submenu-link"
+                  href="/awards2021"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Эксперт года — 2021
+                </a>
+              </li>
+              <li className="submenu-list-item">
+                <a
+                  className="submenu-link"
+                  href="/awards2020"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Эксперт года — 2020
+                </a>
+              </li>
+              <li className="submenu-list-item">
+                <a
+                  className="submenu-link"
+                  href="/awards2019"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Эксперт года — 2019
+                </a>
+              </li>
+              <li className="submenu-list-item">
+                <a
+                  className="submenu-link"
+                  href="/awards2018"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Эксперт года — 2018
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </li>
                 <li className="t461__list_item" style={{ padding: '0 15px' }}>
                   <Link className="t-menu__link-item" to="/contacts" data-menu-item-number="8">
                     Контакты
@@ -234,7 +317,7 @@ const Menu = () => {
                 <li className="t461__list_item" style={{ padding: '0 0 0 15px' }}>
                   <Link
                     className="t-menu__link-item"
-                    to="/media_aboutaward"
+                    to="/articles"
                     data-menu-item-number="10"
                   >
                     НОВОСТИ

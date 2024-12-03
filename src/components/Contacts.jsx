@@ -11,7 +11,7 @@ import React from 'react';
                     <div class="t396__carrier" data-artboard-recid="273932866"></div>
                     <div class="t396__filter" data-artboard-recid="273932866"></div>
                     <div class="t396__elem tn-elem tn-elem__2739328661611649501161" data-elem-id="1611649501161">
-                        <div class="tn-atom" field="tn_text_1611649501161">ХIV МЕЖДУНАРОДНАЯ ПРЕМИЯ</div>
+                        <div class="tn-atom" field="tn_text_1611649501161">МЕЖДУНАРОДНАЯ ПРЕМИЯ «ГЛОБАЛЬНЫЙ ПРОРЫВ»</div>
                     </div>
                     <div class="t396__elem tn-elem tn-elem__2739328661659352971013" data-elem-id="1659352971013">
                         <div class="tn-atom" field="tn_text_1659352971013">Общероссийская Общественная Организация «Деловая Россия» </div>

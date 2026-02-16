@@ -1,5 +1,5 @@
 import Sovet_9 from '../images/sovet/sovet_9.png'
-import Sovet_10 from '../images/sovet/sovet_10.png'
+import Sovet_10 from '../images/sovet/sovet_10.jpg'
 import Sovet_11 from '../images/sovet/sovet_11.png'
 import Sovet_12 from '../images/sovet/sovet_12.jpg'
 
@@ -14,10 +14,10 @@ const Awards2022 = () => {
           image: Sovet_9,
         },
         {
-          name: "Жанна Белкина",
+          name: "Вадим Пренко",
           title: "Украина",
           description:
-            "Финансист, известная своей работой по поддержке малых и средних предприятий.",
+            "Предприниматель и эксперт в области инновационных технологий, чьи проекты определяют новые стандарты в сфере кибербезопасности и цифрового доверия.",
           image: Sovet_10, 
         },
         {

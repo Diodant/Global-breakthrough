@@ -19,7 +19,7 @@ const Footer = () => {
               </div>
               <div className="t017__title t-title t-title_xxs" field="title">
                 <div style={{ fontSize: '52px' }} data-customstyle="yes">
-                  СТАТЬ ЭКСПЕРТОМ – 2025
+                  СТАТЬ ЭКСПЕРТОМ – 2026
                 </div>
               </div>
             </div>

@@ -121,9 +121,9 @@ function MainPage() {
               data-elem-id="1608547024414"
               data-elem-type="text"
             >
-              <div className="tn-atom" field="tn_text_1608547024414">
+              {/* <div className="tn-atom" field="tn_text_1608547024414">
                 XIII МЕЖДУНАРОДНАЯ ПРЕМИЯ
-              </div>
+              </div> */}
             </div>
   
             {/* Элемент: Текст */}
@@ -132,9 +132,9 @@ function MainPage() {
               data-elem-id="1711703111825"
               data-elem-type="text"
             >
-              <div className="tn-atom" field="tn_text_1711703111825">
+              {/* <div className="tn-atom" field="tn_text_1711703111825">
                 XIII INTERNATIONAL AWARD<br />
-              </div>
+              </div> */}
             </div>
   
             {/* Элемент: Изображение */}
@@ -517,10 +517,10 @@ function MainPage() {
               </div>
               <div className="t502__textwrapper">
                 <div className="t502__title t-name t-name_sm" field="li_title__1729941146391">
-                  <strong>Энергетика и экология</strong>
+                  <strong>Маркетинг и коммуникации</strong>
                 </div>
                 <div className="t502__blockdescr t-descr t-descr_xs" field="li_descr__1729941146391">
-                Номинация для бизнесменов, развивающих проекты в энергетическом секторе и сфере устойчивого развития, направленные на эффективное использование ресурсов и снижение экологической нагрузки.
+                Номинация для бизнесменов, развивающих проекты в сфере маркетинга, бренд-стратегий и маркетинговых технологий, направленные на повышение эффективности продвижения, улучшение взаимодействия с аудиторией и рост коммерческих результатов.
                 </div>
               </div>
             </div>

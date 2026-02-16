@@ -1,38 +1,38 @@
-import Sovet_13 from '../images/sovet/sovet_13.jpg'
-import Sovet_14 from '../images/sovet/sovet_14.jpg'
-import Sovet_15 from '../images/sovet/sovet_15.jpg'
-import Sovet_16 from '../images/sovet/sovet_16.jpg'
+import Sovet_29 from '../images/sovet/sovet_29.png'
+import Sovet_30 from '../images/sovet/sovet_30.png'
+import Sovet_31 from '../images/sovet/sovet_31.png'
+import Sovet_32 from '../images/sovet/sovet_32.png'
 
-const Awards2021 = () => {
+const Awards2025 = () => {
 
     const councilMembers = [
         {
-          name: "Игорь Лебедев",
+          name: "Александр Морозов",
           title: "Россия",
           description:
-            "Известный девелопер, реализовавший несколько крупных проектов в сфере недвижимости.",
-          image: Sovet_13,
+            "Предприниматель в сфере цифрового маркетинга, внедряет инновационные стратегии для развития брендов.",
+          image: Sovet_29,
         },
         {
-          name: "Ольга Мороз",
-          title: "Украина",
+          name: "Наргиз Мамедова",
+          title: "Узбекистан",
           description:
-            "Предприниматель и дизайнер одежды, основательница бренда See Arsi; эксперт в ритейле и международном масштабировании (ЕС, Ближний Восток, США), сфокусирована на клиентском сервисе и операционной эффективности.",
-          image: Sovet_14, 
+            "Эксперт по международным образовательным программам, развивает проекты в области профессиональной подготовки молодёжи.",
+          image: Sovet_30, 
         },
         {
-            name: "Михаил Мамедов",
-            title: "Азербайджан",
+            name: "Тимур Кадыров",
+            title: "Киргизия",
             description:
-              "Профессионал в финансовом секторе, специализируется на инвестиционных стратегиях.",
-            image: Sovet_15, 
+              "Специалист по логистике и транспортным системам, оптимизирует международные цепочки поставок.",
+            image: Sovet_31, 
           },
           {
-            name: "Айгуль Турсунова",
-            title: "Казахстан",
+            name: "София Стратулат",
+            title: "Молдова",
             description:
-              "Эксперт в области туризма, активно развивает внутренний и международный туризм в Казахстане.",
-            image: Sovet_16, 
+              "Профессионал в области культурных инициатив, продвигает международные творческие и социальные проекты.",
+            image: Sovet_32, 
           },
           
       ];
@@ -91,7 +91,7 @@ const Awards2021 = () => {
       field="tn_text_1611649501161"
       style={{ lineHeight: "18px", textAlign: "start" }}
     >
-      ЭКСПЕРТНЫЙ СОВЕТ 2021 ГОДА
+      ЭКСПЕРТНЫЙ СОВЕТ 2025 ГОДА
     </div>
   </div>
   <div
@@ -137,8 +137,7 @@ const Awards2021 = () => {
       </div>
     </div>
 
-    <div class="t-section__title t-title t-title_xs t-align_center t-margin_auto bg-color" field="btitle"> <div  style={{color: '#ffffff'}} data-customstyle="yes"><span style={{fontWeight: '400',}}>
-        ЭКСПЕРТНЫЙ СОВЕТ 2021 ГОДА</span></div> </div>
+    <div class="t-section__title t-title t-title_xs t-align_center t-margin_auto bg-color" field="btitle"> <div  style={{color: '#ffffff'}} data-customstyle="yes"><span style={{fontWeight: '400',}}>ЭКСПЕРТНЫЙ СОВЕТ 2025 ГОДА</span></div> </div>
 
     <div style={{ backgroundColor: "#1d1c21", color: "#ffffff", padding: "50px 20px" }}>
       <div className="t-container">
@@ -186,4 +185,4 @@ const Awards2021 = () => {
   );
 };
 
-export default Awards2021;
+export default Awards2025;

@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Menu from './components/Menu';
 import MainPage from './components/MainPage';
 import WinnersPage from './components/WinnersPage';
+import Awards2025 from './components/Awards2025';
 import Awards2024 from './components/Awards2024';
 import Awards2023 from './components/Awards2023';
 import Awards2022 from './components/Awards2022';
@@ -31,6 +32,7 @@ function App() {
             <Route path="/polozhenie" element={<Regulations />} />
             <Route path="/creteria" element={<Creteria />} />
             <Route path="/winners" element={<WinnersPage />} />
+            <Route path="/awards2025" element={<Awards2025 />} />
             <Route path="/awards2024" element={<Awards2024 />} />
             <Route path="/awards2023" element={<Awards2023 />} />
             <Route path="/awards2022" element={<Awards2022 />} />

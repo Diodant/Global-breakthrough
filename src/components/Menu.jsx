@@ -228,6 +228,16 @@ const Menu = () => {
         <div className="submenu-menu">
           <div className="submenu-content">
             <ul role="list" className="submenu-list">
+                <li className="submenu-list-item">
+                <a
+                  className="submenu-link"
+                  href="/awards2025"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Эксперт года — 2025
+                </a>
+              </li>
               <li className="submenu-list-item">
                 <a
                   className="submenu-link"

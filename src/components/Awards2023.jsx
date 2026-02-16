@@ -1,7 +1,8 @@
+import React, { useEffect, useRef, useState } from 'react';
 import Sovet_5 from '../images/sovet/sovet_5.jpg'
 import Sovet_6 from '../images/sovet/sovet_6.png'
-import Sovet_7 from '../images/sovet/sovet_7.png'
-import Sovet_8 from '../images/sovet/sovet_8.png'
+import Sovet_7 from '../images/sovet/sovet_7.jpg'
+import Sovet_8 from '../images/sovet/sovet_8.jpg'
 
 const Awards2023 = () => {
 
@@ -21,21 +22,60 @@ const Awards2023 = () => {
           image: Sovet_6, 
         },
         {
-            name: "Владислав Никитин",
-            title: "Россия",
+            name: "Аик Партизпанян",
+            title: "Армения",
             description:
-              "Генеральный директор компании по производству высокотехнологичного оборудования, создал уникальные автоматизированные линии для оптимизации производственных процессов. Лауреат Национальной Премии за технические инновации, победитель в номинации «Инновационный лидер».",
+              "Владелец сети магазинов одежды Tendenza, создатель запатентованной системы управления товарными потоками. Лауреат главной номинации «Предприниматель года СНГ», обладатель титула «Инновационный лидер» Международной Премии Лидеров бизнеса.",
             image: Sovet_7, 
           },
           {
-            name: "Севара Рахимова",
-            title: "Узбекистан",
+            name: "Рано Хамракул",
+            title: "Казахстан",
             description:
-              "Основатель образовательного центра для подготовки специалистов в сфере IT, активно поддерживает развитие навыков программирования и технологий среди молодежи. Лауреат премии «За вклад в развитие IT-образования».",
+              'Индивидуальный предприниматель, внесла значительный вклад в сферу реконструкции и дизайна жилых интерьеров, автор патента на полезную модель в строительстве, лауреат Международного конкурса "Global Construction Cup" в номинации Лучший руководитель строительной компании, обладатель Международной Премии для бизнесменов в номинации “Предприниматель года СНГ”.',
             image: Sovet_8, 
           },
           
       ];
+
+function NameAutoOverride({ ru, en }) {
+  const ref = useRef(null);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+
+    const apply = () => {
+      const isEN = (document.documentElement.lang || '').startsWith('en');
+      const target = isEN ? en : ru;
+      if (el.textContent !== target) el.textContent = target;
+    };
+
+    apply();
+
+    const textObserver = new MutationObserver(apply);
+    textObserver.observe(el, { childList: true, characterData: true, subtree: true });
+
+    const langObserver = new MutationObserver(apply);
+    langObserver.observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
+
+    return () => {
+      textObserver.disconnect();
+      langObserver.disconnect();
+    };
+  }, [ru, en]);
+
+    return (
+    <span
+      ref={ref}
+      data-override="name"
+      data-ru={ru}
+      data-en={en}
+    >
+      {ru}
+    </span>
+  );
+}
 
   return (
     <>
@@ -169,7 +209,9 @@ const Awards2023 = () => {
               />
             </div>
             <div style={{ flex: "1" }}>
-              <div className="t522__persname">{member.name}</div>
+              <div className="t522__persname">{member.name === 'Аик Партизпанян'
+                  ? <NameAutoOverride ru="Аик Партизпанян" en="Hayk Partizpanyan" />
+                  : member.name}</div>
               <div className="t522__persdescr">
                 {member.title}
               </div>

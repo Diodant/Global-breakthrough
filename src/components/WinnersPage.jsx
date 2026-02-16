@@ -35,7 +35,7 @@ import Winner_34 from '../images/winners/winner_34.jpg'
 import Winner_35 from '../images/winners/winner_35.png'
 import Winner_36 from '../images/winners/winner_36.jpeg'
 import Winner_37 from '../images/winners/winner_37.jpg'
-import Winner_38 from '../images/winners/winner_38.png'
+import Winner_38 from '../images/winners/winner_38.jpg'
 import Winner_39 from '../images/winners/winner_39.jpg'
 import Winner_40 from '../images/winners/winner_40.jpg'
 import Winner_41 from '../images/winners/winner_41.jpg'
@@ -75,6 +75,17 @@ import Winner_74 from '../images/winners/winner_74.jpg'
 import Winner_75 from '../images/winners/winner_75.jpg'
 import Winner_76 from '../images/winners/winner_76.png'
 import Winner_77 from '../images/winners/winner_77.jpeg'
+import Winner_78 from '../images/winners/winner_78.png'
+import Winner_79 from '../images/winners/winner_79.png'
+import Winner_80 from '../images/winners/winner_80.jpg'
+import Winner_81 from '../images/winners/winner_81.png'
+import Winner_82 from '../images/winners/winner_82.png'
+import Winner_83 from '../images/winners/winner_83.png'
+import Winner_84 from '../images/winners/winner_84.png'
+import Winner_85 from '../images/winners/winner_85.png'
+import Winner_86 from '../images/winners/winner_86.jpg'
+import Winner_87 from '../images/winners/winner_87.png'
+import Winner_88 from '../images/winners/winner_88.png'
 
 const WinnersPage = () => {
 
@@ -89,6 +100,7 @@ const WinnersPage = () => {
         { year: 2022, name: "Айгуль Тлеубекова", country: "Киргизия", image: Winner_5 },
         { year: 2023, name: "Леонид Молдован", country: "Молдова", image: Winner_6 },
         { year: 2024, name: "Юлия Петренко", country: "Россия", image: Winner_7 },
+        { year: 2025, name: "Ержан Касымбеков", country: "Казахстан", image: Winner_78 },
       ],
     },
     {
@@ -101,6 +113,7 @@ const WinnersPage = () => {
         { year: 2022, name: "Ольга Демидова", country: "Россия", image: Winner_12 },
         { year: 2023, name: "Тимур Курбанов", country: "Узбекистан", image: Winner_13 },
         { year: 2024, name: "Роман Данилов", country: "Армения", image: Winner_14 },
+        { year: 2025, name: "Вардан Саакян", country: "Армения", image: Winner_79 },
       ],
     },
     {
@@ -113,6 +126,7 @@ const WinnersPage = () => {
         { year: 2022, name: "Карине Мартиросян", country: "Армения", image: Winner_19 },
         { year: 2023, name: "Мурат Рахимов", country: "Киргизия", image: Winner_20 },
         { year: 2024, name: "Светлана Миронова", country: "Молдова", image: Winner_21 },
+        { year: 2025, name: "Эмиль Мамедзаде", country: "Азербайджан", image: Winner_80 },
       ],
     },
     {
@@ -125,6 +139,7 @@ const WinnersPage = () => {
         { year: 2022, name: "Олег Яценко", country: "Украина", image: Winner_26 },
         { year: 2023, name: "Жанна Алибекова", country: "Киргизия", image: Winner_27 },
         { year: 2024, name: "Игорь Волков", country: "Беларусь", image: Winner_28 },
+        { year: 2025, name: "Алексей Гриневич", country: "Беларусь", image: Winner_81 },
       ],
     },
     {
@@ -137,18 +152,20 @@ const WinnersPage = () => {
         { year: 2022, name: "Андрей Степанов", country: "Россия", image: Winner_33 },
         { year: 2023, name: "Арсен Юлдашев", country: "Узбекистан", image: Winner_34 },
         { year: 2024, name: "Дарья Кравченко", country: "Украина", image: Winner_35 },
+                { year: 2025, name: "Бахтыгуль Садырбекова", country: "Киргизия", image: Winner_82 },
       ],
     },
     {
-      name: "Энергетика и экология",
+      name: "Маркетинг и коммуникации",
       winners: [
         { year: 2018, name: "Баходыр Ибрагимов", country: "Узбекистан", image:  Winner_36 },
         { year: 2019, name: "Елена Платонова", country: "Молдова", image:  Winner_37 },
-        { year: 2020, name: "Виктор Сагдиев", country: "Казахстан", image:  Winner_38 },
+        { year: 2020, name: "Наталья Черноусова", country: "Украина", image:  Winner_38 },
         { year: 2021, name: "Владимир Гудков", country: "Россия", image:  Winner_39 },
         { year: 2022, name: "Диана Тер-Оганян", country: "Армения", image:  Winner_40 },
         { year: 2023, name: "Александр Ильин", country: "Беларусь", image:  Winner_41 },
         { year: 2024, name: "Наргиз Алиева", country: "Азербайджан", image:  Winner_42 },
+        { year: 2025, name: "Алина Чобану", country: "Молдова", image: Winner_83 },        
       ],
     },
     {
@@ -161,6 +178,7 @@ const WinnersPage = () => {
         { year: 2022, name: "Артем Карасев", country: "Молдова", image: Winner_47 },
         { year: 2023, name: "Гулям Назаров", country: "Таджикистан", image: Winner_48 },
         { year: 2024, name: "Жанна Хасанова", country: "Узбекистан", image: Winner_49 },
+        { year: 2025, name: "Виктор Орлов", country: "Россия", image: Winner_84 },  
       ],
     },
     {
@@ -173,6 +191,7 @@ const WinnersPage = () => {
         { year: 2022, name: "Максим Чеботарь", country: "Молдова", image: Winner_54 },
         { year: 2023, name: "Анна Емельяненко", country: "Украина", image: Winner_55 },
         { year: 2024, name: "Марат Исмаилов", country: "Киргизия", image: Winner_56 },
+        { year: 2025, name: "Михаил Андрусяк", country: "Россия", image: Winner_85 },  
       ],
     },
     {
@@ -185,6 +204,7 @@ const WinnersPage = () => {
         { year: 2022, name: "Ольга Петрова", country: "Россия", image: Winner_61 },
         { year: 2023, name: "Лариса Хачатурян", country: "Армения", image: Winner_62 },
         { year: 2024, name: "Рахима Насырова", country: "Таджикистан", image: Winner_63 },
+        { year: 2025, name: "Тамара Иванеску", country: "Молдова", image: Winner_86 },  
       ],
     },
     {
@@ -197,6 +217,7 @@ const WinnersPage = () => {
         { year: 2022, name: "Жанна Кириленко", country: "Беларусь", image: Winner_68 },
         { year: 2023, name: "Артем Назарян", country: "Армения", image: Winner_69 },
         { year: 2024, name: "Олеся Мазурова", country: "Молдова", image: Winner_70 },
+        { year: 2025, name: "Давид Петросян", country: "Грузия", image: Winner_87 },  
       ],
     },
     {
@@ -209,6 +230,7 @@ const WinnersPage = () => {
         { year: 2022, name: "Юрий Васильев", country: "Беларусь", image: Winner_75 },
         { year: 2023, name: "Саида Шарипова", country: "Узбекистан", image: Winner_76 },
         { year: 2024, name: "Алия Турсунова", country: "Казахстан", image: Winner_77 },
+        { year: 2025, name: "Милош Радич", country: "Сербия", image: Winner_88 },  
       ],
     },
   ];
@@ -269,7 +291,7 @@ const WinnersPage = () => {
       field="tn_text_1611649501161"
       style={{ lineHeight: "18px", textAlign: "start" }}
     >
-              ПОБЕДИТЕЛИ 2024-2018
+              ПОБЕДИТЕЛИ 2025-2018
     </div>
   </div>
   <div

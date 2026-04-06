@@ -86,6 +86,7 @@ import Winner_85 from '../images/winners/winner_85.png'
 import Winner_86 from '../images/winners/winner_86.jpg'
 import Winner_87 from '../images/winners/winner_87.png'
 import Winner_88 from '../images/winners/winner_88.png'
+import { Helmet } from 'react-helmet-async';
 
 const WinnersPage = () => {
 
@@ -238,6 +239,42 @@ const WinnersPage = () => {
 
   return (
     <>
+    <Helmet>
+  <title>Победители Международной Премии «Глобальный Прорыв» — Nataliia Chernousova и другие | Глобальный Прорыв</title>
+  <meta
+    name="description"
+    content="Победители Международной Премии «Глобальный Прорыв». В числе лауреатов: Nataliia Chernousova (Наталья Черноусова, Ukraine)."
+  />
+  <link rel="canonical" href="https://global-breakthrough.com/winners" />
+  <meta name="robots" content="index,follow" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Победители премии — Nataliia Chernousova | Глобальный Прорыв" />
+  <meta
+    property="og:description"
+    content="Победители Международной Премии «Глобальный Прорыв». В числе лауреатов: Nataliia Chernousova."
+  />
+  <meta property="og:url" content="https://global-breakthrough.com/winners" />
+
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Победители премии — Глобальный Прорыв",
+      "url": "https://global-breakthrough.com/winners",
+      "inLanguage": "ru",
+      "mainEntity": {
+        "@type": "Person",
+        "name": "Наталья Черноусова",
+        "alternateName": "Nataliia Chernousova",
+        "nationality": "Ukraine"
+      }
+    })}
+  </script>
+</Helmet>
+    <div className="seo-hidden-name">
+  <a href="#nataliia-chernousova">Nataliia Chernousova</a>
+</div>
     <div
       id="rec273843032"
       className="r t-rec t-rec_pt_0 r_showed r_anim"

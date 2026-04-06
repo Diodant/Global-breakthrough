@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import Sovet_5 from '../images/sovet/sovet_5.jpg'
 import Sovet_6 from '../images/sovet/sovet_6.png'
 import Sovet_7 from '../images/sovet/sovet_7.jpg'
@@ -22,12 +23,12 @@ const Awards2023 = () => {
           image: Sovet_6, 
         },
         {
-            name: "Аик Партизпанян",
-            title: "Армения",
-            description:
-              "Владелец сети магазинов одежды Tendenza, создатель запатентованной системы управления товарными потоками. Лауреат главной номинации «Предприниматель года СНГ», обладатель титула «Инновационный лидер» Международной Премии Лидеров бизнеса.",
-            image: Sovet_7, 
-          },
+          name: "Айк Партизпанян",
+          title: "Армения",
+          description:
+            "Владелец сети магазинов одежды Tendenza, создатель запатентованной системы управления товарными потоками. Лауреат главной номинации «Предприниматель года СНГ», обладатель титула «Инновационный лидер» Международной Премии Лидеров бизнеса.",
+          image: Sovet_7,
+        },
           {
             name: "Рано Хамракул",
             title: "Казахстан",
@@ -79,6 +80,43 @@ function NameAutoOverride({ ru, en }) {
 
   return (
     <>
+    <Helmet>
+  <title>Экспертный совет 2023 Международной Премии «Глобальный Прорыв» — Hayk Partizpanyan | Глобальный Прорыв</title>
+  <meta
+    name="description"
+    content="Экспертный совет 2023 Международной Премии «Глобальный Прорыв». В составе совета: Hayk Partizpanyan (Айк Партизпанян, Armenia)."
+  />
+  <link rel="canonical" href="https://global-breakthrough.com/awards2023" />
+  <meta name="robots" content="index,follow" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Экспертный совет 2023 — Hayk Partizpanyan | Глобальный Прорыв" />
+  <meta
+    property="og:description"
+    content="Экспертный совет 2023 Международной Премии «Глобальный Прорыв». В составе совета: Hayk Partizpanyan."
+  />
+  <meta property="og:url" content="https://global-breakthrough.com/awards2023" />
+
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Экспертный совет 2023 — Глобальный Прорыв",
+      "url": "https://global-breakthrough.com/awards2023",
+      "inLanguage": "ru",
+      "mainEntity": {
+        "@type": "Person",
+        "name": "Айк Партизпанян",
+        "alternateName": "Hayk Partizpanyan",
+        "nationality": "Armenia"
+      }
+    })}
+  </script>
+</Helmet>
+    <div className="seo-hidden-name">
+  <a href="#hayk-partizpanyan">Hayk Partizpanyan</a>
+
+</div>
     <div
       id="rec273843032"
       className="r t-rec t-rec_pt_0 r_showed r_anim"
@@ -209,8 +247,8 @@ function NameAutoOverride({ ru, en }) {
               />
             </div>
             <div style={{ flex: "1" }}>
-              <div className="t522__persname">{member.name === 'Аик Партизпанян'
-                  ? <NameAutoOverride ru="Аик Партизпанян" en="Hayk Partizpanyan" />
+              <div className="t522__persname">{member.name === 'Айк Партизпанян'
+                  ? <NameAutoOverride ru="Айк Партизпанян" en="Hayk Partizpanyan" />
                   : member.name}</div>
               <div className="t522__persdescr">
                 {member.title}

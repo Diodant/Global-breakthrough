@@ -2,6 +2,7 @@ import Sovet_9 from '../images/sovet/sovet_9.png'
 import Sovet_10 from '../images/sovet/sovet_10.jpg'
 import Sovet_11 from '../images/sovet/sovet_11.png'
 import Sovet_12 from '../images/sovet/sovet_12.jpg'
+import { Helmet } from 'react-helmet-async';
 
 const Awards2022 = () => {
 
@@ -39,6 +40,43 @@ const Awards2022 = () => {
 
   return (
     <>
+        <Helmet>
+      <title>Экспертный совет 2022 Международной Премии «Глобальный Прорыв» — Vadym Prenko</title>
+      <meta
+        name="description"
+        content="В составе совета: Предприниматель и эксперт в области инновационных технологий Vadym Prenko (Вадим Пренко, Ukraine)."
+      />
+      <link rel="canonical" href="https://global-breakthrough.com/awards2022" />
+      <meta name="robots" content="index,follow" />
+    
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="Экспертный совет 2022 — Vadym Prenko" />
+      <meta
+        property="og:description"
+        content="В составе совета: Предприниматель и эксперт в области инновационных технологий Vadym Prenko (Вадим Пренко, Ukraine)."
+      />
+      <meta property="og:url" content="https://global-breakthrough.com/awards2022" />
+    
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "Экспертный совет 2022 — Глобальный Прорыв",
+          "url": "https://global-breakthrough.com/awards2022",
+          "inLanguage": "ru",
+          "mainEntity": {
+            "@type": "Person",
+            "name": "Вадим Пренко",
+            "alternateName": "Vadym Prenko",
+            "nationality": "Ukraine"
+          }
+        })}
+      </script>
+    </Helmet>
+        <div className="seo-hidden-name">
+  <a href="#vadym-prenko">Vadym Prenko</a>
+
+</div>
     <div
       id="rec273843032"
       className="r t-rec t-rec_pt_0 r_showed r_anim"

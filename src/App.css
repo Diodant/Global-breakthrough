@@ -8115,7 +8115,7 @@ font-family: 'Akrobat', Arial, sans-serif;
 }
 
 .news__image-wrap {
-  height: 180px;
+  height: 450px;
   overflow: hidden;
 }
 
@@ -8214,7 +8214,7 @@ font-family: 'Akrobat', Arial, sans-serif;
 
 .article-page-image {
   width: 100%;
-  max-height: 400px;
+
   object-fit: cover;
   margin: 20px 0;
 }
@@ -8391,4 +8391,13 @@ font-family: 'Akrobat', Arial, sans-serif;
   top: 244px;
   left: calc(50% - 600px + 24px);
   width: 403px;
+}
+
+.seo-hidden-name {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
 }

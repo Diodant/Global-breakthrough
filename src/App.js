@@ -1,6 +1,6 @@
-// App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
 import Menu from './components/Menu';
 import MainPage from './components/MainPage';
 import WinnersPage from './components/WinnersPage';
@@ -24,9 +24,10 @@ import './App.css';
 
 function App() {
   return (
-        <Router>
+    <HelmetProvider>
+      <Router>
         <div className="App">
-        <Menu />
+          <Menu />
           <Routes>
             <Route path="/" element={<MainPage />} />
             <Route path="/polozhenie" element={<Regulations />} />
@@ -45,12 +46,11 @@ function App() {
             <Route path="/articles/:id" element={<Article />} />
             <Route path="/submit" element={<Submit />} />
             <Route path="/contacts" element={<Contacts />} />
-            {/* 
-           */}
           </Routes>
-          <Footer  />
+          <Footer />
         </div>
       </Router>
+    </HelmetProvider>
   );
 }
 

@@ -581,10 +581,10 @@ function MainPage() {
               </div>
               <div className="t502__textwrapper">
                 <div className="t502__title t-name t-name_sm" field="li_title__1729941182056">
-                  <strong>Здоровье и благополучие</strong>
+                  <strong>Ресторанный бизнес</strong>
                 </div>
                 <div className="t502__blockdescr t-descr t-descr_xs" field="li_descr__1729941182056">
-                Для предпринимателей, реализующих проекты в области здравоохранения, фитнеса и благополучия, способствующие улучшению физического и ментального здоровья людей и повышению качества жизни.
+                Качество концепции и клиентского опыта, операционная эффективность, инновации в управлении и сервисе, масштабируемость бизнес-модели, влияние на отрасль и экономическая устойчивость.
                 </div>
               </div>
             </div>
@@ -632,6 +632,27 @@ function MainPage() {
               </div>
             </div>
           </li>
+
+         <li className="t502__col t-col t-col_4 t-list__item t-align_left t-item">
+            <div className="t502__tablewrapper">
+              <div className="t502__circlewrapper">
+                <div
+                  className="t502__circle t-title"
+                  style={{ backgroundColor: '#fff5ec', color: '#e7c8af' }}
+                >
+                  12
+                </div>
+              </div>
+              <div className="t502__textwrapper">
+                <div className="t502__title t-name t-name_sm" field="li_title__1729941197810">
+                  <strong>Мода и стиль</strong>
+                </div>
+                <div className="t502__blockdescr t-descr t-descr_xs" field="li_descr__1729941197810">
+                Номинация для предпринимателей, внедряющих инновации в индустрии моды, красоты и персонального стиля, создающих тренды, развивающих устойчивый и этичный подход к производству и потреблению, а также формирующих новое видение эстетики и самовыражения для широкой аудитории.
+                </div>
+              </div>
+            </div>
+          </li>          
         </ul>
       </div>
     </div>

@@ -196,7 +196,7 @@ const WinnersPage = () => {
       ],
     },
     {
-      name: "Здоровье и благополучие",
+      name: "Ресторанный бизнес",
       winners: [
         { year: 2018, name: "Наталья Соколовская", country: "Беларусь", image: Winner_57 },
         { year: 2019, name: "Данияр Асилов", country: "Казахстан", image: Winner_58 },
@@ -234,6 +234,7 @@ const WinnersPage = () => {
         { year: 2025, name: "Милош Радич", country: "Сербия", image: Winner_88 },  
       ],
     },
+    
   ];
 
 

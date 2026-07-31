@@ -25,6 +25,9 @@ const Article = () => {
       if (!text) return text;
 
       return text
+        .replace(/\bSergey\b/g, 'Sergiy')
+        .replace(/\bSERGEY\b/g, 'SERGIY')
+
         .replace(/\bNataliia Chernousova's\b/g, "Nataliia Chernousova's")
         .replace(/\bNATALIIA CHERNOUSOVA'S\b/g, "NATALIIA CHERNOUSOVA'S")
 
@@ -76,7 +79,9 @@ const Article = () => {
 
             if (
               node.nodeValue.indexOf('Natal') === -1 &&
-              node.nodeValue.indexOf('NATAL') === -1
+              node.nodeValue.indexOf('NATAL') === -1 &&
+              node.nodeValue.indexOf('Sergey') === -1 &&
+              node.nodeValue.indexOf('SERGEY') === -1
             ) {
               return NodeFilter.FILTER_REJECT;
             }

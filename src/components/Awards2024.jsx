@@ -2,6 +2,14 @@ import Sovet_1 from '../images/sovet/sovet_1.png'
 import Sovet_2 from '../images/sovet/sovet_2.png'
 import Sovet_3 from '../images/sovet/sovet_3.png'
 import Sovet_4 from '../images/sovet/sovet_4.png'
+import Sovet_41 from '../images/sovet/sovet_41.jpg'
+import Sovet_42 from '../images/sovet/sovet_42.jpg'
+import Sovet_43 from '../images/sovet/sovet_43.jpg'
+import Sovet_44 from '../images/sovet/sovet_44.jpg'
+import Sovet_45 from '../images/sovet/sovet_45.jpg'
+import Sovet_46 from '../images/sovet/sovet_46.jpg'
+import Sovet_47 from '../images/sovet/sovet_47.jpg'
+import Sovet_48 from '../images/sovet/sovet_48.jpg'
 
 const Awards2024 = () => {
 
@@ -34,7 +42,62 @@ const Awards2024 = () => {
               "Специалист в области туризма и гостеприимства, занимается развитием туристической инфраструктуры.",
             image: Sovet_4, 
           },
-          
+          {
+            name: "Марина Соколова",
+            title: "Россия",
+            description:
+              "Эксперт в области международного бизнеса, специализируется на развитии экспортных проектов и масштабировании компаний на зарубежных рынках.",
+            image: Sovet_41,
+          },
+          {
+            name: "Виктор Дроздов",
+            title: "Беларусь",
+            description:
+              "Специалист в сфере строительства и девелопмента, курирует проекты по развитию коммерческой и городской инфраструктуры.",
+            image: Sovet_42,
+          },
+          {
+            name: "Ирина Коваль",
+            title: "Украина",
+            description:
+              "Эксперт в области ритейла и электронной коммерции, занимается внедрением современных торговых технологий и развитием клиентского сервиса.",
+            image: Sovet_43,
+          },
+          {
+            name: "Артем Иванов",
+            title: "Украина",
+            description:
+              "Инженер и разработчик транспортных технологий, специализируется на создании инновационных инженерных решений для транспортной отрасли.",
+            image: Sovet_44,
+          },
+          {
+            name: "Тимур Абдуллаев",
+            title: "Узбекистан",
+            description:
+              "Эксперт в области цифровых технологий и инноваций, реализует проекты по внедрению современных технологических решений в различных отраслях экономики.",
+            image: Sovet_45,
+          },
+          {
+            name: "Елена Миронова",
+            title: "Россия",
+            description:
+              "Специалист в сфере ресторанного бизнеса, консультирует проекты по развитию современных гастрономических концепций и повышению качества сервиса.",
+            image: Sovet_46,
+          },
+          {
+            name: "Сергей Бондаренко",
+            title: "Украина",
+            description:
+              "Эксперт в области спортивного менеджмента, занимается развитием спортивной инфраструктуры и предпринимательских проектов в сфере активного образа жизни.",
+            image: Sovet_47,
+          },
+          {
+            name: "Анна Кравченко",
+            title: "Казахстан",
+            description:
+              "Психолог и эксперт по личностному развитию, реализует образовательные и предпринимательские проекты, направленные на развитие эмоционального благополучия и профессионального роста.",
+            image: Sovet_48,
+          },
       ];
 
   return (
@@ -137,7 +200,7 @@ const Awards2024 = () => {
       </div>
     </div>
 
-    <div class="t-section__title t-title t-title_xs t-align_center t-margin_auto bg-color" field="btitle"> <div  style={{color: '#ffffff'}} data-customstyle="yes"><span style={{fontWeight: '400',}}>ЭКСПЕРТНЫЙ СОВЕТ 2024 ГОДА</span></div> </div>
+    <div className="t-section__title t-title t-title_xs t-align_center t-margin_auto bg-color" field="btitle"> <div  style={{color: '#ffffff'}} data-customstyle="yes"><span style={{fontWeight: '400',}}>ЭКСПЕРТНЫЙ СОВЕТ 2024 ГОДА</span></div> </div>
 
     <div style={{ backgroundColor: "#1d1c21", color: "#ffffff", padding: "50px 20px" }}>
       <div className="t-container">

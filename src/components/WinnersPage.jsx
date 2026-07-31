@@ -58,7 +58,7 @@ import Winner_57 from '../images/winners/winner_57.jpg'
 import Winner_58 from '../images/winners/winner_58.png'
 import Winner_59 from '../images/winners/winner_59.jpeg'
 import Winner_60 from '../images/winners/winner_60.png'
-import Winner_61 from '../images/winners/winner_61.jpg'
+import Winner_61 from '../images/winners/95866.jpg'
 import Winner_62 from '../images/winners/winner_62.jpeg'
 import Winner_63 from '../images/winners/winner_63.jpg'
 import Winner_64 from '../images/winners/winner_64.jpeg'
@@ -170,7 +170,7 @@ const WinnersPage = () => {
       ],
     },
     {
-      name: "Транспорт и логистика",
+      name: "Транспортные инженерные технологии",
       winners: [
         { year: 2018, name: "Давид Туманов", country: "Армения", image: Winner_43 },
         { year: 2019, name: "Роман Грищенко", country: "Украина", image: Winner_44 },
@@ -202,7 +202,7 @@ const WinnersPage = () => {
         { year: 2019, name: "Данияр Асилов", country: "Казахстан", image: Winner_58 },
         { year: 2020, name: "Юлия Бондаренко", country: "Украина", image: Winner_59 },
         { year: 2021, name: "Рустам Каримов", country: "Узбекистан", image: Winner_60 },
-        { year: 2022, name: "Ольга Петрова", country: "Россия", image: Winner_61 },
+        { year: 2022, name: "Сергей Кухилава", country: "Украина", image: Winner_61 },
         { year: 2023, name: "Лариса Хачатурян", country: "Армения", image: Winner_62 },
         { year: 2024, name: "Рахима Насырова", country: "Таджикистан", image: Winner_63 },
         { year: 2025, name: "Тамара Иванеску", country: "Молдова", image: Winner_86 },  
@@ -241,19 +241,23 @@ const WinnersPage = () => {
   return (
     <>
     <Helmet>
-  <title>Победители Международной Премии «Глобальный Прорыв» — Nataliia Chernousova и другие | Глобальный Прорыв</title>
+  <title>Победители Международной Премии «Глобальный Прорыв» — Nataliia Chernousova, Sergiy Kukhilava и другие</title>
   <meta
     name="description"
-    content="Победители Международной Премии «Глобальный Прорыв». В числе лауреатов: Nataliia Chernousova (Наталья Черноусова, Ukraine)."
+    content="Победители Международной Премии «Глобальный Прорыв». В числе лауреатов: Nataliia Chernousova (Наталья Черноусова) и Sergiy Kukhilava (Сергей Кухилава, Ukraine)."
+  />
+  <meta
+    name="keywords"
+    content="победители Глобальный Прорыв, Сергей Кухилава, Sergiy Kukhilava, Kukhilava Sergiy, Наталья Черноусова, Nataliia Chernousova"
   />
   <link rel="canonical" href="https://global-breakthrough.com/winners" />
   <meta name="robots" content="index,follow" />
 
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Победители премии — Nataliia Chernousova | Глобальный Прорыв" />
+  <meta property="og:title" content="Победители премии — Nataliia Chernousova и Sergiy Kukhilava | Глобальный Прорыв" />
   <meta
     property="og:description"
-    content="Победители Международной Премии «Глобальный Прорыв». В числе лауреатов: Nataliia Chernousova."
+    content="Победители Международной Премии «Глобальный Прорыв». В числе лауреатов: Nataliia Chernousova и Sergiy Kukhilava."
   />
   <meta property="og:url" content="https://global-breakthrough.com/winners" />
 
@@ -264,17 +268,27 @@ const WinnersPage = () => {
       "name": "Победители премии — Глобальный Прорыв",
       "url": "https://global-breakthrough.com/winners",
       "inLanguage": "ru",
-      "mainEntity": {
-        "@type": "Person",
-        "name": "Наталья Черноусова",
-        "alternateName": "Nataliia Chernousova",
-        "nationality": "Ukraine"
-      }
+      "mainEntity": [
+        {
+          "@type": "Person",
+          "name": "Наталья Черноусова",
+          "alternateName": "Nataliia Chernousova",
+          "nationality": "Ukraine"
+        },
+        {
+          "@type": "Person",
+          "name": "Сергей Кухилава",
+          "alternateName": ["Sergiy Kukhilava", "Kukhilava Sergiy"],
+          "nationality": "Ukraine",
+          "award": "Победитель Международной премии «Глобальный Прорыв» 2022 в номинации «Ресторанный бизнес»"
+        }
+      ]
     })}
   </script>
 </Helmet>
-    <div className="seo-hidden-name">
+<div className="seo-hidden-name">
   <a href="#nataliia-chernousova">Nataliia Chernousova</a>
+  <a href="#sergiy-kukhilava">Sergiy Kukhilava</a>
 </div>
     <div
       id="rec273843032"

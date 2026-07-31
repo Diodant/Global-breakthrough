@@ -2,6 +2,15 @@ import Sovet_9 from '../images/sovet/sovet_9.png'
 import Sovet_10 from '../images/sovet/sovet_10.jpg'
 import Sovet_11 from '../images/sovet/sovet_11.png'
 import Sovet_12 from '../images/sovet/sovet_12.jpg'
+import Sovet_33 from '../images/sovet/sovet_33.jpg'
+import Sovet_34 from '../images/sovet/sovet_34.jpg'
+import Sovet_35 from '../images/sovet/sovet_35.jpg'
+import Sovet_36 from '../images/sovet/sovet_36.jpg'
+import Sovet_37 from '../images/sovet/sovet_37.jpg'
+import Sovet_38 from '../images/sovet/sovet_38.jpg'
+import Sovet_39 from '../images/sovet/sovet_39.jpg'
+import Sovet_40 from '../images/sovet/sovet_40.png'
+
 import { Helmet } from 'react-helmet-async';
 
 const Awards2022 = () => {
@@ -35,7 +44,62 @@ const Awards2022 = () => {
               "Руководитель логистической компании, работает над оптимизацией поставок в регионе.",
             image: Sovet_12, 
           },
-          
+          {
+            name: "Арманжан Байтасов",
+            title: "Казахстан",
+            description:
+              "Предприниматель, издатель и владелец долей в нескольких международных медиапроектах, включая Forbes Kazakhstan и Forbes Georgia.",
+            image: Sovet_33,
+          },
+          {
+            name: "Нурлан Смагулов",
+            title: "Казахстан",
+            description:
+              "Крупный предприниматель в области авторетейла, торговли и девелопмента.",
+            image: Sovet_34,
+          },
+          {
+            name: "Заза (Гела) Микадзе",
+            title: "Грузия",
+            description:
+              "Предприниматель, связанный с развитием гостиничных проектов и восстановлением исторических объектов под современные отели международного уровня.",
+            image: Sovet_35,
+          },
+          {
+            name: "Игорь Манн",
+            title: "Россия",
+            description:
+              "Известный специалист в области маркетинга, продвижения, клиентского сервиса и развития брендов.",
+            image: Sovet_36,
+          },
+          {
+            name: "Борис Зарьков",
+            title: "Россия",
+            description:
+              "Ресторатор и предприниматель, основатель ресторанного альянса White Rabbit Family. Эксперт в области ресторанного бизнеса, развития гастрономических концепций и управления предприятиями общественного питания.",
+            image: Sovet_37,
+          },
+          {
+            name: "Александр Винокуров",
+            title: "Казахстан",
+            description:
+              "Олимпийский чемпион, известный представитель спортивной индустрии и организатор спортивных проектов.",
+            image: Sovet_38,
+          },
+          {
+            name: "Марина Мелия",
+            title: "Россия",
+            description:
+              "Психолог, автор, бизнес-консультант и специалист в области лидерства, личностного развития и психологического сопровождения предпринимателей.",
+            image: Sovet_39,
+          },
+          {
+            name: "Ульяна Сергеенко",
+            title: "Россия",
+            description:
+              "Основатель международно известного модного бренда и дизайнер, работающий в индустрии высокой моды.",
+            image: Sovet_40,
+          },
       ];
 
   return (
@@ -175,7 +239,7 @@ const Awards2022 = () => {
       </div>
     </div>
 
-    <div class="t-section__title t-title t-title_xs t-align_center t-margin_auto bg-color" field="btitle"> <div  style={{color: '#ffffff'}} data-customstyle="yes"><span style={{fontWeight: '400',}}>
+    <div className="t-section__title t-title t-title_xs t-align_center t-margin_auto bg-color" field="btitle"> <div  style={{color: '#ffffff'}} data-customstyle="yes"><span style={{fontWeight: '400',}}>
         ЭКСПЕРТНЫЙ СОВЕТ 2022 ГОДА</span></div> </div>
 
     <div style={{ backgroundColor: "#1d1c21", color: "#ffffff", padding: "50px 20px" }}>
@@ -201,11 +265,34 @@ const Awards2022 = () => {
                 backgroundColor: "#444",
               }}
             >
-              <img
-                src={member.image}
-                alt={member.name}
-                style={{ width: "100%", height: "100%", objectFit: "cover" }}
-              />
+              {member.image ? (
+                <img
+                  src={member.image}
+                  alt={member.name}
+                  style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                />
+              ) : (
+                <div
+                  aria-label={`Фото ${member.name} будет добавлено позже`}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    color: "#ffffff",
+                    fontSize: "32px",
+                    fontWeight: "600",
+                  }}
+                >
+                  {member.name
+                    .split(" ")
+                    .filter((part) => !part.startsWith("("))
+                    .slice(0, 2)
+                    .map((part) => part[0])
+                    .join("")}
+                </div>
+              )}
             </div>
             <div style={{ flex: "1" }}>
               <div className="t522__persname">{member.name}</div>

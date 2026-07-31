@@ -80,42 +80,100 @@ function NameAutoOverride({ ru, en }) {
 
   return (
     <>
-    <Helmet>
-  <title>Экспертный совет 2023 Международной Премии «Глобальный Прорыв» — Hayk Partizpanyan | Глобальный Прорыв</title>
+<Helmet>
+  <title>
+    Рано Хамракул (Rano Khamrakul) — Экспертный совет 2023 | Глобальный Прорыв
+  </title>
+
   <meta
     name="description"
-    content="Экспертный совет 2023 Международной Премии «Глобальный Прорыв». В составе совета: Hayk Partizpanyan (Айк Партизпанян, Armenia)."
+    content="Рано Хамракул (Rano Khamrakul), Казахстан — член экспертного совета 2023 Международной Премии «Глобальный Прорыв», индивидуальный предприниматель, эксперт в сфере реконструкции и дизайна жилых интерьеров, автор патента на полезную модель в строительстве, лауреат Global Construction Cup и обладатель премии «Предприниматель года СНГ»."
   />
+
+  <meta
+    name="keywords"
+    content="Рано Хамракул, Rano Khamrakul, Rano Khamrakul Kazakhstan, Рано Хамракул Казахстан, Хамракул Рано, Khamrakul Rano, экспертный совет 2023, Глобальный Прорыв, Global Breakthrough, реконструкция жилых интерьеров, дизайн интерьеров, residential interiors, interior design, reconstruction, construction, строительный бизнес, патент на полезную модель, Global Construction Cup, Лучший руководитель строительной компании, Предприниматель года СНГ"
+  />
+
   <link rel="canonical" href="https://global-breakthrough.com/awards2023" />
-  <meta name="robots" content="index,follow" />
+
+  <meta name="robots" content="index,follow,max-image-preview:large" />
 
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Экспертный совет 2023 — Hayk Partizpanyan | Глобальный Прорыв" />
+
+  <meta
+    property="og:title"
+    content="Рано Хамракул (Rano Khamrakul) — Экспертный совет 2023"
+  />
+
   <meta
     property="og:description"
-    content="Экспертный совет 2023 Международной Премии «Глобальный Прорыв». В составе совета: Hayk Partizpanyan."
+    content="Рано Хамракул (Rano Khamrakul), Казахстан — индивидуальный предприниматель, эксперт в сфере реконструкции и дизайна жилых интерьеров, автор патента на полезную модель в строительстве, лауреат Global Construction Cup и премии «Предприниматель года СНГ»."
   />
+
   <meta property="og:url" content="https://global-breakthrough.com/awards2023" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <meta
+    name="twitter:title"
+    content="Рано Хамракул (Rano Khamrakul) — Экспертный совет 2023"
+  />
+
+  <meta
+    name="twitter:description"
+    content="Rano Khamrakul / Рано Хамракул — Казахстан, индивидуальный предприниматель, эксперт по реконструкции и дизайну жилых интерьеров, лауреат Global Construction Cup и премии «Предприниматель года СНГ»."
+  />
 
   <script type="application/ld+json">
     {JSON.stringify({
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "name": "Экспертный совет 2023 — Глобальный Прорыв",
+      "name": "Рано Хамракул (Rano Khamrakul) — Экспертный совет 2023",
       "url": "https://global-breakthrough.com/awards2023",
       "inLanguage": "ru",
+      "description": "Рано Хамракул (Rano Khamrakul), Казахстан — член экспертного совета 2023 Международной Премии «Глобальный Прорыв», индивидуальный предприниматель, эксперт в сфере реконструкции и дизайна жилых интерьеров.",
+      "about": {
+        "@type": "Person",
+        "name": "Рано Хамракул",
+        "alternateName": [
+          "Rano Khamrakul",
+          "Хамракул Рано",
+          "Khamrakul Rano"
+        ],
+        "nationality": "Kazakhstan",
+        "jobTitle": "Индивидуальный предприниматель",
+        "award": [
+          "Global Construction Cup — Лучший руководитель строительной компании",
+          "Предприниматель года СНГ"
+        ],
+        "description": "Рано Хамракул (Rano Khamrakul), Казахстан — индивидуальный предприниматель, внесла значительный вклад в сферу реконструкции и дизайна жилых интерьеров, автор патента на полезную модель в строительстве, лауреат Международного конкурса Global Construction Cup в номинации Лучший руководитель строительной компании, обладатель Международной Премии для бизнесменов в номинации Предприниматель года СНГ.",
+        "knowsAbout": [
+          "reconstruction",
+          "interior design",
+          "residential interiors",
+          "construction",
+          "utility model patent",
+          "business development",
+          "entrepreneurship",
+          "project management"
+        ],
+        "url": "https://global-breakthrough.com/awards2023"
+      },
       "mainEntity": {
         "@type": "Person",
-        "name": "Айк Партизпанян",
-        "alternateName": "Hayk Partizpanyan",
-        "nationality": "Armenia"
+        "name": "Рано Хамракул",
+        "alternateName": "Rano Khamrakul",
+        "nationality": "Kazakhstan",
+        "jobTitle": "Индивидуальный предприниматель",
+        "description": "Рано Хамракул (Rano Khamrakul) — член экспертного совета 2023 Международной Премии «Глобальный Прорыв», предприниматель в сфере реконструкции и дизайна жилых интерьеров."
       }
     })}
   </script>
 </Helmet>
-    <div className="seo-hidden-name">
-  <a href="#hayk-partizpanyan">Hayk Partizpanyan</a>
-
+<div className="seo-hidden-name">
+  <a href="#rano-khamrakul">Rano Khamrakul</a>
+  <span> Рано Хамракул Казахстан реконструкция дизайн интерьеров Global Construction Cup Предприниматель года СНГ</span>
 </div>
     <div
       id="rec273843032"
@@ -247,9 +305,11 @@ function NameAutoOverride({ ru, en }) {
               />
             </div>
             <div style={{ flex: "1" }}>
-              <div className="t522__persname">{member.name === 'Айк Партизпанян'
-                  ? <NameAutoOverride ru="Айк Партизпанян" en="Hayk Partizpanyan" />
-                  : member.name}</div>
+<div className="t522__persname">
+  {member.name === 'Рано Хамракул'
+    ? <NameAutoOverride ru="Рано Хамракул" en="Rano Khamrakul" />
+    : member.name}
+</div>
               <div className="t522__persdescr">
                 {member.title}
               </div>
